@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6Sa-GJ-Lv5">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar View Controller-->
+        <scene sceneID="7bo-ZQ-NUR">
+            <objects>
+                <tabBarController id="6Sa-GJ-Lv5" customClass="TabBarViewController" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="CMH-rb-6YZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="WdI-Sx-S8r" kind="relationship" relationship="viewControllers" id="MbH-76-8gP"/>
+                        <segue destination="ghr-lN-Eci" kind="relationship" relationship="viewControllers" id="rhw-dT-4Ay"/>
+                        <segue destination="Wz2-7T-Nuj" kind="relationship" relationship="viewControllers" id="6Qn-6r-hSV"/>
+                        <segue destination="VeI-Bg-yTe" kind="relationship" relationship="viewControllers" id="99u-Dp-EU6"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pDI-1k-OVH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-257.5" y="1995.5"/>
+        </scene>
+        <!--联系人-->
+        <scene sceneID="sTw-Xr-U2B">
+            <objects>
+                <navigationController id="WdI-Sx-S8r" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="联系人" image="activity.png" id="ZgI-O3-EI8"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="eJb-nB-wRl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="hft-9a-emZ" kind="relationship" relationship="rootViewController" id="fcc-Ti-K12"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Xm-E5-Kqs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332.5" y="804.5"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="aNI-Ta-PFH">
+            <objects>
+                <navigationController id="ghr-lN-Eci" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="首页" image="cinema.png" id="oHf-9x-XfE"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="lrT-J9-ooX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="rum-us-NFz" kind="relationship" relationship="rootViewController" id="Czc-jZ-0P3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B7l-cW-SwC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="370.5" y="1566.5"/>
+        </scene>
+        <!--消息-->
+        <scene sceneID="tJv-il-POq">
+            <objects>
+                <navigationController id="Wz2-7T-Nuj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="消息" image="user.png" id="jTh-8q-Egs"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="sCB-Zr-dnM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="sFo-co-SI8" kind="relationship" relationship="rootViewController" id="DuJ-8x-AV8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5KS-Af-Dlh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="386.5" y="2370.5"/>
+        </scene>
+        <!--爱易购-->
+        <scene sceneID="sR0-NN-gF0">
+            <objects>
+                <navigationController id="VeI-Bg-yTe" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="爱易购" image="movie.png" id="4tP-nB-lqU"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="5WD-J9-pN1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Ck4-5d-MMZ" kind="relationship" relationship="rootViewController" id="my9-vy-4p4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ha-mj-tbI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="370.5" y="3138.5"/>
+        </scene>
+        <!--爱易购-->
+        <scene sceneID="puZ-fv-VdM">
+            <objects>
+                <viewController id="Ck4-5d-MMZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OLk-tR-qdc"/>
+                        <viewControllerLayoutGuide type="bottom" id="FZX-Ql-bqk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xef-xS-2cb">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="爱易购" id="sFP-fr-ge0"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="495-sc-9ZU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="833.5" y="3138.5"/>
+        </scene>
+        <!--消息-->
+        <scene sceneID="sBh-qb-pEz">
+            <objects>
+                <viewController id="sFo-co-SI8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YIb-xI-1V0"/>
+                        <viewControllerLayoutGuide type="bottom" id="3R0-fv-6bM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="O8d-21-3XH">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="消息" id="gmf-9W-mL4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pep-on-zo7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="822.5" y="2378.5"/>
+        </scene>
+        <!--联系人-->
+        <scene sceneID="ydZ-bJ-L6X">
+            <objects>
+                <viewController id="hft-9a-emZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="415-Td-vZS"/>
+                        <viewControllerLayoutGuide type="bottom" id="c8n-hc-fLX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3I0-6V-gha">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="联系人" id="xGA-J2-mSN"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vrr-Iw-H4V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="778.5" y="804.5"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="Yku-1M-aBt">
+            <objects>
+                <viewController id="rum-us-NFz" customClass="IndexViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Elf-um-lRi"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zzn-zu-2aY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yiA-An-eSB">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="525" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NbM-gT-2Ci">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="IndexCell" rowHeight="525" id="0dh-r2-0zj" customClass="IndexTableViewCell">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="525"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0dh-r2-0zj" id="mpo-Io-srL">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="524"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MUt-4P-sgo">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="151"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="身体状况：很健康" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMZ-J9-zal">
+                                                            <rect key="frame" x="150" y="63" width="136" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="实时心率：67" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yt8-eD-r2r">
+                                                            <rect key="frame" x="10" y="63" width="105" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="实时体温（手臂外温）：29.9" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4c-ex-d25">
+                                                            <rect key="frame" x="10" y="34" width="222" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="实时定位 老年活动中心" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Su5-cR-HAX">
+                                                            <rect key="frame" x="57" y="105" width="175" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="activity.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ua9-tl-gFu">
+                                                            <rect key="frame" x="10" y="100" width="31" height="31"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="预约医生" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CjG-dx-srd">
+                                                            <rect key="frame" x="260" y="105" width="68" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="我家老人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9NA-hs-53Z">
+                                                            <rect key="frame" x="10" y="8" width="68" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.35686274509803922" green="0.60784313725490191" blue="0.83529411764705885" alpha="1" colorSpace="calibratedRGB"/>
+                                                </view>
+                                                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XHe-fv-SaK">
+                                                    <rect key="frame" x="0.0" y="159" width="375" height="352"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="公告板：虞城县" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9he-1P-H0U">
+                                                            <rect key="frame" x="19" y="8" width="119" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="更多。。。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUC-NO-rnp">
+                                                            <rect key="frame" x="263" y="17" width="85" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="activity.png" translatesAutoresizingMaskIntoConstraints="NO" id="3XA-AK-esH">
+                                                            <rect key="frame" x="8" y="50" width="50" height="50"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="刘广坤" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BPa-CT-cwh">
+                                                            <rect key="frame" x="76" y="50" width="51" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="嗖嗖嗖嗖嗖嗖哦搜搜搜搜搜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zpr-sz-oDO">
+                                                            <rect key="frame" x="76" y="79" width="263" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="大侯乡，六楼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ewi-Qo-jfN">
+                                                            <rect key="frame" x="263" y="53" width="102" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="activity.png" translatesAutoresizingMaskIntoConstraints="NO" id="kU0-Ql-vfs">
+                                                            <rect key="frame" x="8" y="128" width="50" height="50"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="刘广坤" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDD-fm-QYu">
+                                                            <rect key="frame" x="76" y="128" width="51" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="嗖嗖嗖嗖嗖嗖哦搜搜搜搜搜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSc-RY-RhX">
+                                                            <rect key="frame" x="76" y="157" width="263" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="大侯乡，六楼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4d0-Zt-tgz">
+                                                            <rect key="frame" x="263" y="128" width="102" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="activity.png" translatesAutoresizingMaskIntoConstraints="NO" id="7Bd-Wn-msD">
+                                                            <rect key="frame" x="8" y="208" width="50" height="50"/>
+                                                        </imageView>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="刘广坤" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJp-21-a9S">
+                                                            <rect key="frame" x="76" y="208" width="51" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="嗖嗖嗖嗖嗖嗖哦搜搜搜搜搜" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tbs-dR-9lS">
+                                                            <rect key="frame" x="71" y="237" width="263" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="大侯乡，六楼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMc-7P-JFk">
+                                                            <rect key="frame" x="265" y="208" width="102" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="知村事" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOB-T7-iL7">
+                                                            <rect key="frame" x="76" y="286" width="51" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="0.35686274509803922" green="0.60784313725490191" blue="0.83529411764705885" alpha="1" colorSpace="calibratedRGB"/>
+                                                </view>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="backView" destination="MUt-4P-sgo" id="85c-Jt-ww3"/>
+                                            <outlet property="backView2" destination="XHe-fv-SaK" id="2vj-4z-EuZ"/>
+                                            <outlet property="knowVillageLabel" destination="BOB-T7-iL7" id="oON-Ro-2EW"/>
+                                            <outlet property="publicBoardLabel" destination="9he-1P-H0U" id="uRs-Ki-yGt"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="rum-us-NFz" id="prG-i9-3LT"/>
+                                    <outlet property="delegate" destination="rum-us-NFz" id="rR0-Oc-gCR"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NbM-gT-2Ci" firstAttribute="top" secondItem="Elf-um-lRi" secondAttribute="bottom" id="FJZ-xG-8zN"/>
+                            <constraint firstItem="Zzn-zu-2aY" firstAttribute="top" secondItem="NbM-gT-2Ci" secondAttribute="bottom" id="JEC-5b-dWS"/>
+                            <constraint firstAttribute="trailing" secondItem="NbM-gT-2Ci" secondAttribute="trailing" id="m3X-DS-kn9"/>
+                            <constraint firstItem="NbM-gT-2Ci" firstAttribute="leading" secondItem="yiA-An-eSB" secondAttribute="leading" id="nTu-wP-36Q"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="首页" id="7jU-kB-t2g"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="tableView" destination="NbM-gT-2Ci" id="H3l-hn-6n9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g9K-bI-bZb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="822.5" y="1566.5"/>
+        </scene>
+        <!--Know Village View Controller-->
+        <scene sceneID="Pa0-Ao-baN">
+            <objects>
+                <viewController storyboardIdentifier="KnowVillage" id="e2Y-zh-Y8w" customClass="KnowVillageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LMy-VP-WSg"/>
+                        <viewControllerLayoutGuide type="bottom" id="pxe-uS-tcA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dap-Lh-9AW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="is1-cP-H9T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1311.5" y="2058.5"/>
+        </scene>
+        <!--Public Board View Controller-->
+        <scene sceneID="HSW-TH-Fg7">
+            <objects>
+                <viewController storyboardIdentifier="PublicBoard" id="NmK-tH-5KJ" customClass="PublicBoardViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gQH-Jp-h4V"/>
+                        <viewControllerLayoutGuide type="bottom" id="ISx-04-vaZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HsA-6Z-zNi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBq-yN-PIj">
+                                <rect key="frame" x="112" y="20" width="30" height="30"/>
+                                <state key="normal" title="招聘"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Nc-2T-mr9">
+                                <rect key="frame" x="190" y="20" width="60" height="30"/>
+                                <state key="normal" title="二手市场"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0K-xV-hEr">
+                                <rect key="frame" x="296" y="20" width="45" height="30"/>
+                                <state key="normal" title="好项目"/>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bEx-k3-pX0">
+                                <rect key="frame" x="0.0" y="50" width="375" height="10"/>
+                                <color key="backgroundColor" red="0.3529411764705882" green="0.58823529411764708" blue="0.19607843137254902" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6s-B7-XZO">
+                                <rect key="frame" x="35" y="20" width="30" height="30"/>
+                                <state key="normal" title="首页"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="goodProjectButton" destination="R0K-xV-hEr" id="oUa-Bb-gNf"/>
+                        <outlet property="indexButton" destination="B6s-B7-XZO" id="neb-oU-2tZ"/>
+                        <outlet property="recruitButton" destination="kBq-yN-PIj" id="c83-Wh-73u"/>
+                        <outlet property="secondMarketButton" destination="6Nc-2T-mr9" id="zF5-0D-UJD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jIi-bn-t2c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1311.5" y="1308.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="activity.png" width="24" height="16"/>
+        <image name="cinema.png" width="16" height="26"/>
+        <image name="movie.png" width="20" height="25"/>
+        <image name="user.png" width="30" height="32"/>
+    </resources>
+</document>
