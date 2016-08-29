@@ -10,6 +10,7 @@
 #import "IndexTableViewCell.h"
 #import "PublicBoardViewController.h"
 #import "KnowVillageViewController.h"
+#import "MyOldManViewController.h"
 @interface IndexViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 
@@ -39,6 +40,11 @@
     [cell.backView2.layer setCornerRadius:30];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     
+    // 我家老人手势
+    UITapGestureRecognizer *myOldManTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(myOldManTapAction:)];
+    cell.myOldManLabel.userInteractionEnabled = YES;
+    [cell.myOldManLabel addGestureRecognizer:myOldManTap];
+    
     // 公告板手势
     UITapGestureRecognizer *publicBoardTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(publicBoardTapAction:)];
     cell.publicBoardLabel.userInteractionEnabled = YES;
@@ -50,6 +56,14 @@
     cell.knowVillageLabel.userInteractionEnabled = YES;
     [cell.knowVillageLabel addGestureRecognizer:knowVillageTap];
     return cell;
+}
+
+#pragma mark --- 跳转我家老人页面 ---
+- (void)myOldManTapAction:(UITapGestureRecognizer *)tap
+{
+    UIStoryboard *stoboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    MyOldManViewController *myOldManVc = [stoboard instantiateViewControllerWithIdentifier:@"MyOldMan"];
+    [self.navigationController pushViewController:myOldManVc animated:YES];
 }
 
 #pragma mark --- 跳转公告板页面 ---
