@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    NSDictionary *dic = @{NSForegroundColorAttributeName:[UIColor whiteColor],NSFontAttributeName:[UIFont systemFontOfSize:22]};
+    self.navigationController.navigationBar.titleTextAttributes = dic;
+    self.navigationController.navigationBar.barTintColor = [UIColor greenColor];
 }
 
 - (void)didReceiveMemoryWarning {

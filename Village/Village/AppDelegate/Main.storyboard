@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6Sa-GJ-Lv5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6Sa-GJ-Lv5">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -181,7 +181,11 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="527"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0dh-r2-0zj" id="mpo-Io-srL">
+<<<<<<< HEAD
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="526"/>
+=======
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="524.5"/>
+>>>>>>> e696815e16170e5d04716e0b691c13a74e44aa77
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MUt-4P-sgo">
@@ -484,15 +488,15 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2AZ-hr-tNC">
-                                        <rect key="frame" x="266" y="16" width="80" height="36"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2AZ-hr-tNC">
+                                        <rect key="frame" x="267" y="17" width="80" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="预约医生">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="健康报告" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqX-ed-Lzj">
-                                        <rect key="frame" x="10" y="22" width="80" height="24"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="健康报告" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqX-ed-Lzj">
+                                        <rect key="frame" x="10" y="23" width="80" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -509,52 +513,6 @@
                                     <constraint firstItem="4Pt-2d-0Oh" firstAttribute="leading" secondItem="vqX-ed-Lzj" secondAttribute="leading" id="aqj-qU-QFT"/>
                                     <constraint firstItem="vqX-ed-Lzj" firstAttribute="bottom" secondItem="zyd-L7-e6e" secondAttribute="centerY" multiplier="0.5" id="kTv-tT-50O"/>
                                 </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="njg-5f-FLZ" customClass="RoundView">
-                                <rect key="frame" x="9" y="207" width="357" height="188"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="保健常识" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOB-Sb-ifu">
-                                        <rect key="frame" x="10" y="22" width="80" height="24"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="十条建议改善睡眠质量 让老人睡的像婴儿般香甜" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fef-af-EaN">
-                                        <rect key="frame" x="10" y="57" width="319" height="18"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYE-Y7-qFb">
-                                        <rect key="frame" x="303" y="19" width="43" height="30"/>
-                                        <state key="normal" title="更多...">
-                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="进入老龄化阶段，老人不可避免地会遇到各种睡眠障碍。根据&quot;美国退休人员协会&quot;网站的统计，64岁以上的老人中，有50%的人崔在某种程度上的睡眠障碍，而每晚少睡1.5小时会让人白天的警觉度下降1/3。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUn-H2-d9G">
-                                        <rect key="frame" x="10" y="125" width="337" height="58"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.031550044079999999" green="0.46793539880000001" blue="0.63797616960000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="fef-af-EaN" firstAttribute="bottom" secondItem="njg-5f-FLZ" secondAttribute="centerY" multiplier="0.8" id="4nS-p4-7Hb"/>
-                                    <constraint firstItem="xUn-H2-d9G" firstAttribute="leading" secondItem="njg-5f-FLZ" secondAttribute="leading" constant="10" id="5dh-tZ-gjZ"/>
-                                    <constraint firstItem="dOB-Sb-ifu" firstAttribute="leading" secondItem="njg-5f-FLZ" secondAttribute="leading" constant="10" id="7tv-qV-LXl"/>
-                                    <constraint firstAttribute="trailing" secondItem="xUn-H2-d9G" secondAttribute="trailing" constant="10" id="B4i-Bz-yhw"/>
-                                    <constraint firstItem="dOB-Sb-ifu" firstAttribute="trailing" secondItem="njg-5f-FLZ" secondAttribute="centerX" multiplier="0.5" id="HCM-at-lvP"/>
-                                    <constraint firstItem="fef-af-EaN" firstAttribute="leading" secondItem="dOB-Sb-ifu" secondAttribute="leading" id="Jhf-Ry-oap"/>
-                                    <constraint firstItem="HYE-Y7-qFb" firstAttribute="centerY" secondItem="dOB-Sb-ifu" secondAttribute="centerY" id="Un0-o7-3WB"/>
-                                    <constraint firstItem="dOB-Sb-ifu" firstAttribute="bottom" secondItem="njg-5f-FLZ" secondAttribute="centerY" multiplier="0.5" id="d0F-CD-IRy"/>
-                                    <constraint firstAttribute="trailing" secondItem="HYE-Y7-qFb" secondAttribute="trailing" constant="10" id="gBO-bg-eJ9"/>
-                                    <constraint firstAttribute="bottom" secondItem="xUn-H2-d9G" secondAttribute="bottom" constant="5" id="teZ-7H-7Dr"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="HCM-at-lvP"/>
-                                    </mask>
-                                </variation>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Uj-WX-DD0" customClass="RoundView">
                                 <rect key="frame" x="9" y="407" width="175" height="188"/>
@@ -583,8 +541,8 @@
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="健康枕永磁石膏理疗器失眠、清热、烦躁保健枕头" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Cd-PJ-0CA">
-                                        <rect key="frame" x="91" y="95" width="79" height="70"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="健康枕永磁石膏理疗器失眠、清热、烦躁保健枕头" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Cd-PJ-0CA">
+                                        <rect key="frame" x="91" y="95" width="79" height="71"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -615,8 +573,8 @@
                                             <constraint firstAttribute="width" secondItem="zYB-m5-aIi" secondAttribute="height" id="ajm-pS-uJU"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="中年女装中年年时尚女装妈妈老年人服装短袖T恤衬衫" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6se-be-utr">
-                                        <rect key="frame" x="90" y="95" width="79" height="70"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中年女装中年年时尚女装妈妈老年人服装短袖T恤衬衫" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6se-be-utr">
+                                        <rect key="frame" x="91" y="95" width="79" height="71"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -653,6 +611,55 @@
                                     <constraint firstItem="zYB-m5-aIi" firstAttribute="trailing" secondItem="2z0-z1-5hx" secondAttribute="centerX" id="voC-6A-bDT"/>
                                     <constraint firstAttribute="bottom" secondItem="YyY-pc-fVw" secondAttribute="bottom" constant="5" id="zPU-2r-q0M"/>
                                 </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="njg-5f-FLZ" customClass="RoundView">
+                                <rect key="frame" x="9" y="206" width="357" height="188"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYE-Y7-qFb">
+                                        <rect key="frame" x="304" y="24" width="43" height="30"/>
+                                        <state key="normal" title="更多...">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="进入老龄化阶段，老人不可避免地会遇到各种睡眠障碍。根据&quot;美国退休人员协会&quot;网站的统计，64岁以上的老人中，有50%的人崔在某种程度上的睡眠障碍，而每晚少睡1.5小时会让人白天的警觉度下降1/3。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUn-H2-d9G">
+                                        <rect key="frame" x="10" y="85" width="337" height="98"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="十条建议改善睡眠质量 让老人睡的像婴儿般香甜" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fef-af-EaN">
+                                        <rect key="frame" x="10" y="59" width="337" height="16"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="保健常识" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOB-Sb-ifu">
+                                        <rect key="frame" x="10" y="21.5" width="80" height="35"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.031550044079999999" green="0.46793539880000001" blue="0.63797616960000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="fef-af-EaN" firstAttribute="bottom" secondItem="njg-5f-FLZ" secondAttribute="centerY" multiplier="0.8" id="4nS-p4-7Hb"/>
+                                    <constraint firstItem="xUn-H2-d9G" firstAttribute="leading" secondItem="njg-5f-FLZ" secondAttribute="leading" constant="10" id="5dh-tZ-gjZ"/>
+                                    <constraint firstItem="dOB-Sb-ifu" firstAttribute="leading" secondItem="njg-5f-FLZ" secondAttribute="leading" constant="10" id="7tv-qV-LXl"/>
+                                    <constraint firstItem="xUn-H2-d9G" firstAttribute="top" secondItem="fef-af-EaN" secondAttribute="bottom" constant="10" id="AIH-F6-BQf"/>
+                                    <constraint firstAttribute="trailing" secondItem="xUn-H2-d9G" secondAttribute="trailing" constant="10" id="B4i-Bz-yhw"/>
+                                    <constraint firstItem="dOB-Sb-ifu" firstAttribute="trailing" secondItem="njg-5f-FLZ" secondAttribute="centerX" multiplier="0.5" id="HCM-at-lvP"/>
+                                    <constraint firstItem="fef-af-EaN" firstAttribute="leading" secondItem="dOB-Sb-ifu" secondAttribute="leading" id="Jhf-Ry-oap"/>
+                                    <constraint firstItem="fef-af-EaN" firstAttribute="trailing" secondItem="HYE-Y7-qFb" secondAttribute="trailing" id="SaR-nw-Pt8"/>
+                                    <constraint firstItem="HYE-Y7-qFb" firstAttribute="centerY" secondItem="dOB-Sb-ifu" secondAttribute="centerY" id="Un0-o7-3WB"/>
+                                    <constraint firstItem="dOB-Sb-ifu" firstAttribute="bottom" secondItem="njg-5f-FLZ" secondAttribute="centerY" multiplier="0.6" id="d0F-CD-IRy"/>
+                                    <constraint firstAttribute="trailing" secondItem="HYE-Y7-qFb" secondAttribute="trailing" constant="10" id="gBO-bg-eJ9"/>
+                                    <constraint firstItem="fef-af-EaN" firstAttribute="top" secondItem="HYE-Y7-qFb" secondAttribute="bottom" constant="5" id="kaf-4e-HCu"/>
+                                    <constraint firstAttribute="bottom" secondItem="xUn-H2-d9G" secondAttribute="bottom" constant="5" id="teZ-7H-7Dr"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="HCM-at-lvP"/>
+                                    </mask>
+                                </variation>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

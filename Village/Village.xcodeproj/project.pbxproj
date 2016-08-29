@@ -17,7 +17,6 @@
 		EC5B70D01D742A9500F981DF /* VillageDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5B70CF1D742A9500F981DF /* VillageDynamicViewController.m */; };
 		EC5B70D31D742AA300F981DF /* PersonDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5B70D21D742AA300F981DF /* PersonDynamicViewController.m */; };
 		ECFA45001D7128F2003493E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFA44FF1D7128F2003493E6 /* main.m */; };
-		ECFA45091D7128F2003493E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFA45071D7128F2003493E6 /* Main.storyboard */; };
 		ECFA450B1D7128F2003493E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFA450A1D7128F2003493E6 /* Assets.xcassets */; };
 		ECFA450E1D7128F2003493E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFA450C1D7128F2003493E6 /* LaunchScreen.storyboard */; };
 		ECFA45191D7128F3003493E6 /* VillageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFA45181D7128F3003493E6 /* VillageTests.m */; };
@@ -104,7 +103,6 @@
 		EC5B70D21D742AA300F981DF /* PersonDynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDynamicViewController.m; sourceTree = "<group>"; };
 		ECFA44FB1D7128F2003493E6 /* Village.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Village.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFA44FF1D7128F2003493E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ECFA45081D7128F2003493E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECFA450A1D7128F2003493E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECFA450D1D7128F2003493E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECFA450F1D7128F2003493E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -256,7 +254,6 @@
 				ECFA45391D7131FA003493E6 /* PublicClass */,
 				ECFA453A1D7131FA003493E6 /* Resource */,
 				ECFA453B1D7131FA003493E6 /* ThirdClass */,
-				ECFA45071D7128F2003493E6 /* Main.storyboard */,
 				ECFA450A1D7128F2003493E6 /* Assets.xcassets */,
 				ECFA450C1D7128F2003493E6 /* LaunchScreen.storyboard */,
 				ECFA450F1D7128F2003493E6 /* Info.plist */,
@@ -716,7 +713,6 @@
 				ECFA455C1D7132BA003493E6 /* MJRefresh.bundle in Resources */,
 				ECFA46101D7138BB003493E6 /* cinema.png in Resources */,
 				ECFA46111D7138BB003493E6 /* movie.png in Resources */,
-				ECFA45091D7128F2003493E6 /* Main.storyboard in Resources */,
 				ECFA460F1D7138BB003493E6 /* activity.png in Resources */,
 				ECFA460A1D713849003493E6 /* 1.jpg in Resources */,
 			);
@@ -824,14 +820,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ECFA45071D7128F2003493E6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECFA45081D7128F2003493E6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ECFA450C1D7128F2003493E6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
