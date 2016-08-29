@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EFE8C781D74230600573760 /* RoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE8C771D74230600573760 /* RoundView.m */; };
+		8EFE8C7B1D74234C00573760 /* MyOldManViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFE8C7A1D74234C00573760 /* MyOldManViewController.m */; };
 		EC5B70C11D73D57400F981DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5B70C01D73D57400F981DF /* Main.storyboard */; };
 		EC5B70C41D73DFEB00F981DF /* IndexTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5B70C31D73DFEB00F981DF /* IndexTableViewCell.m */; };
 		EC5B70C71D740C8A00F981DF /* PublicBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5B70C61D740C8A00F981DF /* PublicBoardViewController.m */; };
@@ -80,6 +82,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8EFE8C761D74230600573760 /* RoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundView.h; sourceTree = "<group>"; };
+		8EFE8C771D74230600573760 /* RoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundView.m; sourceTree = "<group>"; };
+		8EFE8C791D74234C00573760 /* MyOldManViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOldManViewController.h; sourceTree = "<group>"; };
+		8EFE8C7A1D74234C00573760 /* MyOldManViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOldManViewController.m; sourceTree = "<group>"; };
 		EC5B70C01D73D57400F981DF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EC5B70C21D73DFEB00F981DF /* IndexTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexTableViewCell.h; sourceTree = "<group>"; };
 		EC5B70C31D73DFEB00F981DF /* IndexTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexTableViewCell.m; sourceTree = "<group>"; };
@@ -495,6 +501,8 @@
 				EC5B70C61D740C8A00F981DF /* PublicBoardViewController.m */,
 				EC5B70C81D7412AA00F981DF /* KnowVillageViewController.h */,
 				EC5B70C91D7412AA00F981DF /* KnowVillageViewController.m */,
+				8EFE8C791D74234C00573760 /* MyOldManViewController.h */,
+				8EFE8C7A1D74234C00573760 /* MyOldManViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -511,6 +519,8 @@
 			children = (
 				EC5B70C21D73DFEB00F981DF /* IndexTableViewCell.h */,
 				EC5B70C31D73DFEB00F981DF /* IndexTableViewCell.m */,
+				8EFE8C761D74230600573760 /* RoundView.h */,
+				8EFE8C771D74230600573760 /* RoundView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -725,10 +735,12 @@
 				ECFA45671D7132BA003493E6 /* UIView+MJExtension.m in Sources */,
 				ECFA45D01D713309003493E6 /* SDWebImagePrefetcher.m in Sources */,
 				ECFA45D71D713309003493E6 /* UIView+WebCacheOperation.m in Sources */,
+				8EFE8C781D74230600573760 /* RoundView.m in Sources */,
 				ECFA45651D7132BA003493E6 /* UIScrollView+MJExtension.m in Sources */,
 				ECFA46051D7136B9003493E6 /* MessageViewController.m in Sources */,
 				ECFA45C81D713309003493E6 /* NSData+ImageContentType.m in Sources */,
 				ECFA45D31D713309003493E6 /* UIImage+MultiFormat.m in Sources */,
+				8EFE8C7B1D74234C00573760 /* MyOldManViewController.m in Sources */,
 				ECFA45D41D713309003493E6 /* UIImage+WebP.m in Sources */,
 				ECFA46021D7136AC003493E6 /* IndexViewController.m in Sources */,
 				ECFA453F1D713234003493E6 /* RequestManager.m in Sources */,
