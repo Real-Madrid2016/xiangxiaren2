@@ -11,6 +11,9 @@
 #import "PublicBoardViewController.h"
 #import "KnowVillageViewController.h"
 #import "MyOldManViewController.h"
+#import "TeamActivityViewController.h"
+#import "VillageDynamicViewController.h"
+#import "PersonDynamicViewController.h"
 @interface IndexViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 
@@ -55,7 +58,23 @@
     UITapGestureRecognizer *knowVillageTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(knowVillageTapAction:)];
     cell.knowVillageLabel.userInteractionEnabled = YES;
     [cell.knowVillageLabel addGestureRecognizer:knowVillageTap];
+    
+    // 集体活动手势
+    UITapGestureRecognizer *teamActivityTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(teamActivityAction:)];
+    cell.teamActivityLabel.userInteractionEnabled = YES;
+    [cell.teamActivityLabel addGestureRecognizer:teamActivityTap];
+    
+    // 乡村动态
+    UITapGestureRecognizer *villageDynamicTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(villageDynamicTapAction:)];
+    cell.villageDynamicLabel.userInteractionEnabled = YES;
+    [cell.villageDynamicLabel addGestureRecognizer:villageDynamicTap];
+    
+    // 个人动态
+    UITapGestureRecognizer *personalDynamicTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(personalDynamicTapAction:)];
+    cell.personalDynamicLabel.userInteractionEnabled = YES;
+    [cell.personalDynamicLabel addGestureRecognizer:personalDynamicTap];
     return cell;
+
 }
 
 #pragma mark --- 跳转我家老人页面 ---
@@ -81,6 +100,31 @@
     UIStoryboard *stoboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     KnowVillageViewController *knowVillageVc = [stoboard instantiateViewControllerWithIdentifier:@"KnowVillage"];
     [self.navigationController pushViewController:knowVillageVc animated:YES];
+}
+
+#pragma mark --- 跳转集体活动界面 ---
+- (void)teamActivityAction:(UITapGestureRecognizer *)tap
+{
+    UIStoryboard *stoboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    TeamActivityViewController *teamActivityVc = [stoboard instantiateViewControllerWithIdentifier:@"TeamActivity"];
+    [self.navigationController pushViewController:teamActivityVc animated:YES];
+}
+
+#pragma mark --- 跳转乡村动态界面 ---
+- (void)villageDynamicTapAction:(UITapGestureRecognizer *)tap
+{
+    UIStoryboard *stoboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    VillageDynamicViewController *villageDynamicVc = [stoboard instantiateViewControllerWithIdentifier:@"VillageDynamic"];
+    [self.navigationController pushViewController:villageDynamicVc animated:YES];
+
+}
+
+#pragma mark --- 个人动态界面 ---
+- (void)personalDynamicTapAction:(UITapGestureRecognizer *)tap
+{
+    UIStoryboard *stoboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    PersonDynamicViewController *personDynamicVc = [stoboard instantiateViewControllerWithIdentifier:@"PersonDynamic"];
+    [self.navigationController pushViewController:personDynamicVc animated:YES];
 }
 
 //- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath

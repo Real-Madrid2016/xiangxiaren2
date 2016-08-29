@@ -1,33 +1,24 @@
 //
-//  PublicBoardViewController.m
+//  TeamActivityViewController.m
 //  Village
 //
 //  Created by I三生有幸I on 16/8/29.
 //  Copyright © 2016年 盛辰. All rights reserved.
 //
 
-#import "PublicBoardViewController.h"
+#import "TeamActivityViewController.h"
 
-@interface PublicBoardViewController ()
-// 首页
-@property (strong, nonatomic) IBOutlet UIButton *indexButton;
-// 招聘
-@property (strong, nonatomic) IBOutlet UIButton *recruitButton;
-// 二手市场
-@property (strong, nonatomic) IBOutlet UIButton *secondMarketButton;
-// 好项目英文
-@property (strong, nonatomic) IBOutlet UIButton *goodProjectButton;
+@interface TeamActivityViewController ()
 
 @end
 
-@implementation PublicBoardViewController
+@implementation TeamActivityViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.navigationItem.title = @"公告板";
-    
+    self.navigationItem.title = @"集体活动";
 }
 
 - (void)didReceiveMemoryWarning {

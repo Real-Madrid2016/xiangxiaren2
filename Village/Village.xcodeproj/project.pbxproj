@@ -13,6 +13,9 @@
 		EC5B70C41D73DFEB00F981DF /* IndexTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5B70C31D73DFEB00F981DF /* IndexTableViewCell.m */; };
 		EC5B70C71D740C8A00F981DF /* PublicBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5B70C61D740C8A00F981DF /* PublicBoardViewController.m */; };
 		EC5B70CA1D7412AA00F981DF /* KnowVillageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5B70C91D7412AA00F981DF /* KnowVillageViewController.m */; };
+		EC5B70CD1D742A7000F981DF /* TeamActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5B70CC1D742A7000F981DF /* TeamActivityViewController.m */; };
+		EC5B70D01D742A9500F981DF /* VillageDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5B70CF1D742A9500F981DF /* VillageDynamicViewController.m */; };
+		EC5B70D31D742AA300F981DF /* PersonDynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5B70D21D742AA300F981DF /* PersonDynamicViewController.m */; };
 		ECFA45001D7128F2003493E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFA44FF1D7128F2003493E6 /* main.m */; };
 		ECFA45091D7128F2003493E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFA45071D7128F2003493E6 /* Main.storyboard */; };
 		ECFA450B1D7128F2003493E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFA450A1D7128F2003493E6 /* Assets.xcassets */; };
@@ -93,6 +96,12 @@
 		EC5B70C61D740C8A00F981DF /* PublicBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicBoardViewController.m; sourceTree = "<group>"; };
 		EC5B70C81D7412AA00F981DF /* KnowVillageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnowVillageViewController.h; sourceTree = "<group>"; };
 		EC5B70C91D7412AA00F981DF /* KnowVillageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowVillageViewController.m; sourceTree = "<group>"; };
+		EC5B70CB1D742A7000F981DF /* TeamActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamActivityViewController.h; sourceTree = "<group>"; };
+		EC5B70CC1D742A7000F981DF /* TeamActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamActivityViewController.m; sourceTree = "<group>"; };
+		EC5B70CE1D742A9500F981DF /* VillageDynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VillageDynamicViewController.h; sourceTree = "<group>"; };
+		EC5B70CF1D742A9500F981DF /* VillageDynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VillageDynamicViewController.m; sourceTree = "<group>"; };
+		EC5B70D11D742AA300F981DF /* PersonDynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDynamicViewController.h; sourceTree = "<group>"; };
+		EC5B70D21D742AA300F981DF /* PersonDynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDynamicViewController.m; sourceTree = "<group>"; };
 		ECFA44FB1D7128F2003493E6 /* Village.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Village.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFA44FF1D7128F2003493E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECFA45081D7128F2003493E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -501,6 +510,12 @@
 				EC5B70C61D740C8A00F981DF /* PublicBoardViewController.m */,
 				EC5B70C81D7412AA00F981DF /* KnowVillageViewController.h */,
 				EC5B70C91D7412AA00F981DF /* KnowVillageViewController.m */,
+				EC5B70CB1D742A7000F981DF /* TeamActivityViewController.h */,
+				EC5B70CC1D742A7000F981DF /* TeamActivityViewController.m */,
+				EC5B70CE1D742A9500F981DF /* VillageDynamicViewController.h */,
+				EC5B70CF1D742A9500F981DF /* VillageDynamicViewController.m */,
+				EC5B70D11D742AA300F981DF /* PersonDynamicViewController.h */,
+				EC5B70D21D742AA300F981DF /* PersonDynamicViewController.m */,
 				8EFE8C791D74234C00573760 /* MyOldManViewController.h */,
 				8EFE8C7A1D74234C00573760 /* MyOldManViewController.m */,
 			);
@@ -753,6 +768,7 @@
 				EC5B70C71D740C8A00F981DF /* PublicBoardViewController.m in Sources */,
 				ECFA455E1D7132BA003493E6 /* MJRefreshConst.m in Sources */,
 				ECFA455D1D7132BA003493E6 /* MJRefreshComponent.m in Sources */,
+				EC5B70D31D742AA300F981DF /* PersonDynamicViewController.m in Sources */,
 				ECFA45621D7132BA003493E6 /* MJRefreshHeader.m in Sources */,
 				ECFA45CE1D713309003493E6 /* SDWebImageManager+MJ.m in Sources */,
 				ECFA45CC1D713309003493E6 /* SDWebImageDownloader.m in Sources */,
@@ -762,10 +778,12 @@
 				EC5B70C41D73DFEB00F981DF /* IndexTableViewCell.m in Sources */,
 				ECFA45CF1D713309003493E6 /* SDWebImageManager.m in Sources */,
 				ECFA45C91D713309003493E6 /* SDImageCache.m in Sources */,
+				EC5B70D01D742A9500F981DF /* VillageDynamicViewController.m in Sources */,
 				ECFA45CD1D713309003493E6 /* SDWebImageDownloaderOperation.m in Sources */,
 				ECFA45611D7132BA003493E6 /* MJRefreshGifHeader.m in Sources */,
 				ECFA45C71D713309003493E6 /* NSData+GIF.m in Sources */,
 				ECFA45CA1D713309003493E6 /* SDWebImageCompat.m in Sources */,
+				EC5B70CD1D742A7000F981DF /* TeamActivityViewController.m in Sources */,
 				ECFA45001D7128F2003493E6 /* main.m in Sources */,
 				ECFA45D11D713309003493E6 /* UIButton+WebCache.m in Sources */,
 				ECFA45D51D713309003493E6 /* UIImageView+HighlightedWebCache.m in Sources */,

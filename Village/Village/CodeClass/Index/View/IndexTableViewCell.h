@@ -13,7 +13,7 @@
 
 @property (strong, nonatomic) IBOutlet UIView *backView2;
 
-// 我家老人
+// 我家老人label
 @property (strong, nonatomic) IBOutlet UILabel *myOldManLabel;
 
 // 公告板label
@@ -21,4 +21,15 @@
 
 // 知村事label
 @property (strong, nonatomic) IBOutlet UILabel *knowVillageLabel;
+
+// 集体活动label
+@property (strong, nonatomic) IBOutlet UILabel *teamActivityLabel;
+
+// 村里动态label
+@property (strong, nonatomic) IBOutlet UILabel *villageDynamicLabel;
+
+// 个人动态label
+@property (strong, nonatomic) IBOutlet UILabel *personalDynamicLabel;
+
+
 @end
